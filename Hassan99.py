@@ -168,13 +168,13 @@ if ltx > 12:
 else:
     a = ltx
     tag = "AM"
-m♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡   
+m
     
 try:
     print('\n\n\033[1;33m LOADING ASSET FILES... \033[0;97m')
     v = 5.2
     update = ('5.2')
-m♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡   update = ('5.2')
+mupdate = ('5.2')
     if str(v) in update:
         os.system('clear')
     else:pass
