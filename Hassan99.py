@@ -123,7 +123,7 @@ BK = '\x1b[1;103m' # BELAKANG KUNING
 BH = '\x1b[1;102m' # BELAKANG HIJAU
 BM = '\x1b[1;101m' # BELAJANG MERAH
 BA = '\x1b[1;100m' # BELAKANG ABU ABU
-my_color = [
+y_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
 now = datetime.now()
@@ -174,8 +174,7 @@ try:
     print('\n\n\033[1;33m LOADING ASSET FILES... \033[0;97m')
     v = 5.2
     update = ('5.2')
-
-update = ('5.2')
+    update = ('5.2')
     if str(v) in update:
         os.system('clear')
     else:pass
